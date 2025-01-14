@@ -6,15 +6,25 @@
 }
 
 .content {
+    background-color: #ffffff;
+    position: fixed;
     font-family: cursive;
     display: flex;
+    justify-content: center;
     gap: 20px;
+    font-size: 17px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 21px 20px; 
+    height: 60px;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
 }
 
 .logo {
     font-family: 'Times New Roman', Times, serif;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 30px;
     color: blue;
 }
 
@@ -23,7 +33,64 @@ i {
 }
 
 .menu-item:hover {
-    background-color: rgba(128, 128, 128, 0.205);
     cursor: pointer;
+    transform: translateY(-3px);
 }
+
+main .imagem-home {
+    overflow: visible;
+    margin-top: 60px;
+}
+
+.imagem-home img {
+    width: 100vw;
+    height: 800px;
+    margin-top: 30px;
+    display: block;
+    object-fit: cover;
+    margin-top: -10vh;
+    border-radius: 30px;
+}
+
+.mensagem-sobre-imagem {
+    position: absolute;
+    top: 40%; 
+    left: 80%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 36px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+
+main .video-explicativo {
+    background-image: linear-gradient(to right, orange, yellow);
+    height: 500px;
+    border-radius: 30px;
+    width: 100vw;
+}
+
+.breve-texto {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+}
+
+.video-explicativo {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    justify-content: end; /* Espaça o conteúdo entre os dois elementos (texto e vídeo) */
+    align-items: center; /* Alinha os itens no topo */
+    gap: 20px; /* Espaçamento entre o texto e o vídeo */
+}
+
+
+
+
+
+
+
+
+
 
