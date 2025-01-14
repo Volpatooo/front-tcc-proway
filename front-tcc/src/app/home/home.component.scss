@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.content {
+    font-family: cursive;
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    font-size: 20px;
+    color: blue;
+}
+
+i {
+    margin-right: 13px;
+}
+
+.menu-item:hover {
+    background-color: rgba(128, 128, 128, 0.205);
+    cursor: pointer;
+}
+
