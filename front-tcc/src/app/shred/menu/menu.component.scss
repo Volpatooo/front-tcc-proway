@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.content {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: #ffffff; 
+    z-index: 10; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 21px 20px;
+    height: 60px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 17px;
+}
+ 
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    font-size: 30px;
+    color: blue;
+}
+
+i {
+    margin-right: 13px;
+}
+
+.menu-item:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
