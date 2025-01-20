@@ -6,15 +6,41 @@
     padding: 20px; 
     margin: 0 auto; 
     height: 80vh;
-    background-color: rgba(128, 128, 128, 0.582);
     color: aliceblue;
+    color: #f1f1f1;
+    background-color: black;
   }
   
-  .container p {
+.container p {
     width: 45%; 
     margin: 0; 
     line-height: 1.5; 
-    font-size: 21px;
-    font-family: cursive;
-  }
+    font-size: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container img {
+  height: 890px;
+  width: 1000px;
+  filter: brightness(70%);
+  margin-top: -10vh;
+  display: block;
+  object-fit: cover;
+  margin-left: 10px;
   
+}
+  
+
+main h1 {
+  text-align: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}
+
+main p {
+  text-align: center;
+  font-size: 15px;font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.1;
+  font-size: 20px;
+}
